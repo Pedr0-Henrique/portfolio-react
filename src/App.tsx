@@ -94,7 +94,17 @@ const Header = ({
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300"
               >
-                {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
+                {isMenuOpen ? (
+                  <X
+                    size={20}
+                    className={darkMode ? "text-white" : "text-gray-900"}
+                  />
+                ) : (
+                  <Menu
+                    size={20}
+                    className={darkMode ? "text-white" : "text-gray-900"}
+                  />
+                )}
               </button>
             </div>
           </div>
@@ -187,7 +197,7 @@ const AboutSection = ({ t }) => {
             </p>
             <div className="flex space-x-4 pt-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Pedr0-Henrique"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white bg-gray-100 dark:bg-gray-700 rounded-lg transition-all duration-300 hover:scale-110"
@@ -195,7 +205,7 @@ const AboutSection = ({ t }) => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/pedro-henrique-6a22b1324/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white bg-gray-100 dark:bg-gray-700 rounded-lg transition-all duration-300 hover:scale-110"
@@ -203,7 +213,7 @@ const AboutSection = ({ t }) => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:exemplo@email.com"
+                href="mailto:pedro2002h@gmail.com"
                 className="p-3 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white bg-gray-100 dark:bg-gray-700 rounded-lg transition-all duration-300 hover:scale-110"
               >
                 <Mail size={24} />

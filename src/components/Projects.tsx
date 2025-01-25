@@ -6,25 +6,33 @@ const projects = [
   {
     titleKey: 'project1Title', // Chave para o título do projeto
     descriptionKey: 'project1Description', // Chave para a descrição do projeto
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+    image: 'https://c0.wallpaperflare.com/preview/530/95/652/art-basketball-basket-basketball-court-building.jpg',
+    tags: ['HTML', 'Tailwind CSS', 'JavaScript'],
     githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
+    liveUrl: '../src/assests/index.html',
   },
   {
     titleKey: 'project2Title', // Chave para o título do projeto
     descriptionKey: 'project2Description', // Chave para a descrição do projeto
-    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0',
-    tags: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
-    githubUrl: 'https://github.com',
+    image: '../src/cadastro_alunos_e_cursos.png',
+    tags: ['PHP', 'MySQL'],
+    githubUrl: 'https://github.com/Pedr0-Henrique/cadastro_alunos_e_cursos',
     liveUrl: 'https://example.com',
   },
   {
     titleKey: 'project3Title', // Chave para o título do projeto
     descriptionKey: 'project3Description', // Chave para a descrição do projeto
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
-    tags: ['React', 'D3.js', 'Express', 'Redis'],
-    githubUrl: 'https://github.com',
+    image: '../src/tarefas.png',
+    tags: ['Java', 'Swing'],
+    githubUrl: 'https://github.com/Pedr0-Henrique/Gerenciador-de-Tarefas',
+    liveUrl: 'https://example.com',
+  },
+  {
+    titleKey: 'project4Title', // Chave para o título do projeto
+    descriptionKey: 'project4Description', // Chave para a descrição do projeto
+    image: '../src/crud.jpg',
+    tags: ['Laravel', 'Bootstrap'],
+    githubUrl: 'https://github.com/Pedr0-Henrique/crud_basico2',
     liveUrl: 'https://example.com',
   },
 ];
