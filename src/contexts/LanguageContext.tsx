@@ -100,14 +100,7 @@ const translations: Translations = {
     pt: "Este projeto é um Dashboard Interativo que exibe gráficos dinâmicos e uma tabela de produtos com informações sobre estoque e preços. A página é totalmente responsiva e utiliza Tailwind CSS para o design moderno, O dashboard contém dois gráficos: um gráfico de linhas para mostrar vendas mensais e um gráfico de barras para exibir a quantidade de itens em estoque. Além disso, há uma tabela que exibe os produtos, seus preços e a quantidade disponível. O layout é otimizado para oferecer uma experiência interativa e agradável ao usuário.",
     en: "This project is an Interactive Dashboard that displays dynamic charts and a product table with information about stock and prices. The page is fully responsive and uses Tailwind CSS for modern design,The dashboard features two charts: a line chart to show monthly sales and a bar chart to display the stock quantity of items. Additionally, there is a table showing the products, their prices, and available stock. The layout is optimized to provide an interactive and enjoyable user experience.",
   },
-  project7Title: {
-    pt: "Página de Filmes",
-    en: "Movie Page",
-  },
-  project7Description: {
-    pt: "Este projeto é uma página de filmes responsiva que exibe uma lista de filmes populares, com a opção de filtrar por gênero. A página utiliza a API de filmes do The Movie Database (TMDb) para obter informações sobre os filmes, como título, descrição, classificação e imagem. ",
-    en: "This project is a responsive movie page that displays a list of popular movies, with the option to filter by genre. The page uses The Movie Database (TMDb) Movie API to retrieve movie information such as title, description, rating, and image.",
-  },
+
 
 
 
