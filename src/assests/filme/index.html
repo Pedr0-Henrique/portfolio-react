@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes e Séries</title>
+    <link rel="stylesheet" href="css/style_movie.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+   
+</head>
+<body>
+
+    <header class=" text-center">
+        <h1 class="text-4xl font-bold">Filmes e Séries</h1>
+    </header>
+
+    <div class="sessao_pesquisa  flex flex-col items-center">
+        <div class="formulario">
+            <input type="text" id="searchInput" class="input_pesquisa px-4 py-2 border rounded" placeholder="Buscar...">
+        </div>
+        <div class="filtros mt-4">
+            <label class="text-lg">
+                <input type="checkbox" id="mostrarFavoritos" class="mr-2">
+                Mostrar Favoritos
+            </label>
+        </div>
+    </div>
+
+    <div id="lista" class="container mx-auto mt-8"></div>
+
+    <script src="JS/movie.js"></script>
+    <script src="JS/card.js"></script>
+    <script src="JS/script_scroller.js"></script>
+
+    
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

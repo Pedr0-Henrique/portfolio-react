@@ -14,7 +14,7 @@ const projects = [
   {
     titleKey: 'project2Title', // Chave para o título do projeto
     descriptionKey: 'project2Description', // Chave para a descrição do projeto
-    image: '../src/cadastro_alunos_e_cursos.png',
+    image: 'https://media.licdn.com/dms/image/v2/D5612AQHGIbvZcicx7w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1693326244326?e=2147483647&v=beta&t=Kvbx9f6g4KkKthdzEXPzA0LJ2EfKrsL0ePXz1j3EAIY',
     tags: ['PHP', 'MySQL'],
     githubUrl: 'https://github.com/Pedr0-Henrique/cadastro_alunos_e_cursos',
     liveUrl: 'https://example.com',
@@ -22,7 +22,7 @@ const projects = [
   {
     titleKey: 'project3Title', // Chave para o título do projeto
     descriptionKey: 'project3Description', // Chave para a descrição do projeto
-    image: '../src/tarefas.png',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnwvNTfMlIuI39sg4Mj8oZcRIpKO3HBA7N8xVyIh8jbyqWY82guB-r60Gf-FxfFsO0QK8&usqp=CAU',
     tags: ['Java', 'Swing'],
     githubUrl: 'https://github.com/Pedr0-Henrique/Gerenciador-de-Tarefas',
     liveUrl: 'https://example.com',
@@ -30,11 +30,36 @@ const projects = [
   {
     titleKey: 'project4Title', // Chave para o título do projeto
     descriptionKey: 'project4Description', // Chave para a descrição do projeto
-    image: '../src/crud.jpg',
+    image: 'https://i.pinimg.com/736x/b6/7c/9a/b67c9afad895288b347b9d52ceeebe8c.jpg',
     tags: ['Laravel', 'Bootstrap'],
     githubUrl: 'https://github.com/Pedr0-Henrique/crud_basico2',
     liveUrl: 'https://example.com',
   },
+  {
+    titleKey: 'project5Title', // Chave para o título do projeto
+    descriptionKey: 'project5Description', // Chave para a descrição do projeto
+    image: 'https://media.slidesgo.com/storage/37903558/responsive-images/0-neo-brutalist-style-business-basic-template___media_library_original_548_308.jpg',
+    tags: ['HTML', 'JavaScript', 'Tailwind  CSS'],
+    githubUrl: '#',
+    liveUrl: 'src/assests/landing/index.html',
+  },
+  {
+    titleKey: 'project6Title', // Chave para o título do projeto
+    descriptionKey: 'project6Description', // Chave para a descrição do projeto
+    image: 'https://logowik.com/content/uploads/images/t_dashboard5777.jpg',
+    tags: ['HTML', 'JavaScript', 'Tailwind  CSS'],
+    githubUrl: '#',
+    liveUrl: 'src/assests/dashboard/index.html',
+  },
+  {
+    titleKey: 'project7Title', // Chave para o título do projeto
+    descriptionKey: 'project7Description', // Chave para a descrição do projeto
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbLIJ_2cdxMSHgoI63748Pb90XCujhoTRw4Q&s',
+    tags: ['HTML', 'JavaScript', 'Tailwind  CSS'],
+    githubUrl: '#',
+    liveUrl: 'src/assests/filme/index.html',
+  }
+  
 ];
 
 export function Projects() {

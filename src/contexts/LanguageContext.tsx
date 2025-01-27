@@ -84,6 +84,31 @@ const translations: Translations = {
     pt: "Desenvolvimento de um sistema de gerenciamento com três módulos principais: CRUD de Produtos (cadastro, edição, visualização e remoção de produtos), Autenticação de Usuários (cadastro e login seguro) e CRUD de Pedidos (gestão completa de pedidos com envio de status).",
     en: "Development of a management system with three main modules: Product CRUD (registration, editing, viewing and removal of products), User Authentication (registration and secure login), and Order CRUD (complete order management with status sending).",
   },
+  project5Title: {
+    pt: "Landing Page de Produtos",
+    en: "Landing Page of Products",
+  },
+  project5Description: {
+    pt: "Este projeto é uma landing page responsiva no estilo Neo-Brutalismo, projetada para exibir um produto ou serviço. Ela apresenta tipografia em negrito, animações GSAP interativas e um menu off-canvas otimizado para dispositivos móveis. A página inclui seções para o herói, recursos do produto, planos de preços e um rodapé de contato com links de mídia social. O design foca em bordas fortes, sombras e uma IU limpa e moderna, proporcionando uma experiência envolvente e visualmente marcante em todos os dispositivos",
+    en: "This project is a responsive Neo-Brutalism-style landing page designed to showcase a product or service. It features bold typography, interactive GSAP animations, and a mobile-friendly off-canvas menu. The page includes sections for the hero, product features, pricing plans, and a contact footer with social media links. The design focuses on strong borders, shadows, and a clean, modern UI, providing an engaging and visually striking experience across all devices",
+  },
+  project6Title: {
+    pt: " Dashboard Interativo",
+    en: " Interactive Dashboard",
+  },
+  project6Description: {
+    pt: "Este projeto é um Dashboard Interativo que exibe gráficos dinâmicos e uma tabela de produtos com informações sobre estoque e preços. A página é totalmente responsiva e utiliza Tailwind CSS para o design moderno, O dashboard contém dois gráficos: um gráfico de linhas para mostrar vendas mensais e um gráfico de barras para exibir a quantidade de itens em estoque. Além disso, há uma tabela que exibe os produtos, seus preços e a quantidade disponível. O layout é otimizado para oferecer uma experiência interativa e agradável ao usuário.",
+    en: "This project is an Interactive Dashboard that displays dynamic charts and a product table with information about stock and prices. The page is fully responsive and uses Tailwind CSS for modern design,The dashboard features two charts: a line chart to show monthly sales and a bar chart to display the stock quantity of items. Additionally, there is a table showing the products, their prices, and available stock. The layout is optimized to provide an interactive and enjoyable user experience.",
+  },
+  project7Title: {
+    pt: "Página de Filmes",
+    en: "Movie Page",
+  },
+  project7Description: {
+    pt: "Este projeto é uma página de filmes responsiva que exibe uma lista de filmes populares, com a opção de filtrar por gênero. A página utiliza a API de filmes do The Movie Database (TMDb) para obter informações sobre os filmes, como título, descrição, classificação e imagem. ",
+    en: "This project is a responsive movie page that displays a list of popular movies, with the option to filter by genre. The page uses The Movie Database (TMDb) Movie API to retrieve movie information such as title, description, rating, and image.",
+  },
+
 
 
   // Contact Section

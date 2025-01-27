@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* Neo-Brutalism Style */
+    body {
+      background-color: #fafafa;
+      font-family: 'Roboto', sans-serif;
+    }
+    .neo-border {
+      border: 4px solid black;
+    }
+    .neo-shadow {
+      box-shadow: 6px 6px 0px 0px black;
+    }
+    .hero-text {
+      font-family: 'Bebas Neue', sans-serif;
+      text-transform: uppercase;
+    }
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    }
+    .button {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-black text-white neo-border neo-shadow">
+    <div class="container mx-auto px-6 py-6 flex justify-between items-center">
+        <a href="../../../index.html" class="text-4xl font-extrabold hero-text">BoldTech</a>
+     
+      <nav class="hidden md:flex space-x-6">
+        <a href="#features" class="text-white font-semibold hover:text-gray-400">Features</a>
+        <a href="#pricing" class="text-white font-semibold hover:text-gray-400">Pricing</a>
+        <a href="#contact" class="text-white font-semibold hover:text-gray-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-black text-white neo-border neo-shadow py-32 text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-6xl font-extrabold mb-6 hero-text">Welcome to BoldTech</h2>
+      <p class="text-xl mb-10">Revolutionizing the future with cutting-edge design and technology.</p>
+      <a href="#features" class="bg-black text-white px-12 py-5 button neo-border neo-shadow hover:bg-gray-700">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-4xl font-bold text-black mb-12">Innovative Features</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <!-- Feature Card -->
+        <div class="bg-white neo-border neo-shadow p-6 text-center card">
+          <img src="https://i.pinimg.com/736x/94/ae/d5/94aed585f630313feb4dc633867c573b.jpg" alt="Feature 1" class="mx-auto mb-6">
+          <h4 class="text-2xl font-extrabold mb-4">Bold Design</h4>
+          <p class="text-black">Our impactful design transforms your experience into something memorable and immersive.</p>
+        </div>
+        <!-- Feature Card -->
+        <div class="bg-white neo-border neo-shadow p-6 text-center card">
+          <img src="https://i.pinimg.com/736x/3d/d0/a2/3dd0a2bbb688896d22628708256dbe2d.jpg" alt="Feature 2" class="mx-auto mb-6">
+          <h4 class="text-2xl font-extrabold mb-4">High Performance</h4>
+          <p class="text-black">Speed and reliability ensure you never waste time with slowness.</p>
+        </div>
+        <!-- Feature Card -->
+        <div class="bg-white neo-border neo-shadow p-6 text-center card">
+          <img src="https://i.pinimg.com/736x/05/27/4e/05274ed8c4125d400f11a9f52a1b051e.jpg" alt="Feature 3" class="mx-auto mb-6">
+          <h4 class="text-2xl font-extrabold mb-4">Full Compatibility</h4>
+          <p class="text-black">Works perfectly on any device, from your computer to your mobile phone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="bg-white neo-border neo-shadow py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-4xl font-bold text-black mb-12">Choose Your Plan</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Pricing Card -->
+        <div class="bg-white neo-border neo-shadow p-6 card">
+          <h4 class="text-2xl font-extrabold mb-4">Basic</h4>
+          <p class="text-3xl font-extrabold text-black mb-6">$19/month</p>
+          <a href="#" class="bg-black text-white px-6 py-3 button neo-border neo-shadow hover:bg-gray-700">Choose</a>
+        </div>
+        <!-- Pricing Card -->
+        <div class="bg-white neo-border neo-shadow p-6 card">
+          <h4 class="text-2xl font-extrabold mb-4">Professional</h4>
+          <p class="text-3xl font-extrabold text-black mb-6">$49/month</p>
+          <a href="#" class="bg-black text-white px-6 py-3 button neo-border neo-shadow hover:bg-gray-700">Choose</a>
+        </div>
+        <!-- Pricing Card -->
+        <div class="bg-white neo-border neo-shadow p-6 card">
+          <h4 class="text-2xl font-extrabold mb-4">Enterprise</h4>
+          <p class="text-3xl font-extrabold text-black mb-6">$99/month</p>
+          <a href="#" class="bg-black text-white px-6 py-3 button neo-border neo-shadow hover:bg-gray-700">Choose</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white neo-border neo-shadow py-6 text-center">
+    <div class="container mx-auto px-6">
+      <div class="mb-4">
+        <p class="font-bold">Contact Us:</p>
+        <p>Email: support@boldtech.com | Phone: +1 800 123 4567</p>
+      </div>
+      <div>
+        <a href="#" class="text-white mx-3 hover:text-gray-400"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" class="text-white mx-3 hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white mx-3 hover:text-gray-400"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="text-white mx-3 hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="font-bold mt-4">&copy; 2024 BoldTech. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- GSAP Animation -->
+  <script>
+    gsap.from(".card", {
+      y: 50,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.3,
+      ease: "power2.out"
+    });
+
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('mouseover', () => {
+        gsap.to(card, { scale: 1.05, duration: 0.3 });
+      });
+      card.addEventListener('mouseout', () => {
+        gsap.to(card, { scale: 1, duration: 0.3 });
+      });
+    });
+  </script>
+
+</body>
+</html>
